@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "uglify": true
+      }
+    }],
+    "stage-2",
+    "react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel"
+  ]
+}
