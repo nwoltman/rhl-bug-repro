@@ -14,9 +14,9 @@ module.exports = {
     ],
   },
   output: {
-    crossOriginLoading: 'anonymous',
     filename: '[name].js',
     path: path.join(__dirname, 'dist'),
+    publicPath: '/',
   },
   resolve: {
     alias: {
