@@ -21,7 +21,7 @@ module.exports = {
   resolve: {
     alias: {
       React: 'react',
-      ReactDOM: 'react-dom',
+      ReactDOM: '@hot-loader/react-dom',
     },
   },
   module: {
